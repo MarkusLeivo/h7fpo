@@ -3,13 +3,16 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    
+
 }
 
 .header {
     height: 60px;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color:rgb(118, 196, 250);
     display: block;
+    
 }
 
 .sisemine_header {
@@ -17,44 +20,64 @@
     width: 90%;
     margin: 0 auto;
     display: block;
+    
 }
 
 .pealkiri {
     height: 100%;
     display: table;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    
 }
 
 .pealkiri h1 {
-    color: darkviolet;
+    color: rgb(17, 84, 115);
     height: 100%;
     display: table-cell;
     vertical-align: middle;
     font-family: 'Lobster', cursive;
     font-size: 38px;
 }
+    
+body  {
+    background-color: rgb(147, 192, 152) ;
 
-.lingid_header {
-    float: right;
-    height: 100%;
 }
-
-.lingid_header a {
-    height: 100%;
+    
+.tutvustus {
+    height: 60px;  
     display: table;
-    float: left;
-    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.lingid_header a:hover, a:active {
-    background-color:blue;
+.tutvustus b {
+    color: rgb(17, 84, 115);
+    height: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
 }
+.meditatsioon{
+    height: 200px;  
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 
-.lingid_header a li {
+}
+.meditatsioon b {
+    color: rgb(17, 84, 115);
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
-    height: 100%;
-    color:aqua;
-    font-size: 20px;
     font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+}
+.meditatsioon_pilt img{
+   
 }
