@@ -50,8 +50,7 @@ body  {
 .tutvustus {
     height: 60px;  
     display: table;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     
 }
 
@@ -59,25 +58,100 @@ body  {
     color: rgb(17, 84, 115);
     height: 100%;
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.meditatsioon{ 
+    width: 900px; 
+    margin: 40px auto;
+    
+}
+
+.alampealkiri {
+    width: 500px;
+    margin: 0 auto;
+    
+}
+.alampealkiri h2{
+    color: rgb(17, 84, 115);
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
 }
-.meditatsioon{
-    height: 200px;  
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
 
-}
-.meditatsioon b {
+.meditatsioon p {
     color: rgb(17, 84, 115);
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 1.6;
+    
 }
-.meditatsioon_pilt img{
-   
+.meditatsioon img {
+    display: block;
+    margin: 10px auto
+}
+
+
+
+.stress_kirjeldus {
+    width: 100%;
+    margin-left: 12.5px
+}
+.stress_kirjeldus h2 {
+    color: rgb(17, 84, 115);
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+}
+.stress_video {
+    width: 1238px;
+    height: 250px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 10px 10px 20px;
+}
+
+
+.sport {
+    width: 100%; 
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+}
+.sport h2 {
+    color: rgb(17, 84, 115);
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+}
+.sport ul {
+    color: rgb(17, 84, 115);
+    height: 100%;
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.sportmuusika{
+    width: 910px;
+    margin: 20px auto;
+    border:20px solid rgb(17, 84, 115);
+    background-color:rgb(17, 84, 115);
+    border-radius:12px
 }
