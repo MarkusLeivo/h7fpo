@@ -58,3 +58,95 @@
     font-size: 20px;
     font-family: 'Signika Negative', sans-serif;
 }
+
+
+.sisu1 {
+    background-color: #76c4fa;
+    height: 350px;
+    background-size: cover;
+    
+}
+
+.sisu1_sisemine {
+    font-family: "Lobster", cursive;
+    color: #115473;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.sisu1_tekst {
+    font-family: "Signika Negative", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    color:#115473;
+
+}
+
+.sisu1_tekst h2 {
+    color: #115473;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.sisu1_tekst ul li {
+    list-style-type: disc;
+    color:#115473;
+    margin-left: 50px;
+}
+
+.rida {
+    display: flex;
+}
+
+.veerg {
+    flex: 50%
+}
+
+.sisu1_tekst ol{
+    color: #115473;
+    margin-left: 50px;
+    list-style-type: disc;
+}
+
+.sisu1_tekst ol li {
+    list-style-type: disc;
+}
+
+.rida2 {
+    display: flex;
+}
+
+.veerg2 {
+    flex: 50%;
+}
+
+.sisu2 {
+    background-color: #115473;
+    height: 800px;
+    background-size: cover;
+    
+}
+
+.sisu2_sisemine {
+    font-family: "Lobster", cursive;
+    color: #76c4fa;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+
+
+.sisu2_tekst {
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.sisu2_tekst iframe {
+    border-color: #76c4fa;
+}
