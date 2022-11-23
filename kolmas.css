@@ -8,7 +8,7 @@
 .header {
     height: 60px;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: #115473;
     display: block;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .pealkiri h1 {
-    color: darkviolet;
+    color: #93c09e;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -47,21 +47,21 @@
 }
 
 .lingid_header a:hover, a:active {
-    background-color:blue;
+    background-color: #136185;
 }
 
 .lingid_header a li {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color:aqua;
+    color: #93c09e;
     font-size: 20px;
     font-family: 'Signika Negative', sans-serif;
 }
 
 
 .sisu1 {
-    background-color: #76c4fa;
+    background-color: #93c09e;
     height: 350px;
     background-size: cover;
     
@@ -132,7 +132,7 @@
 
 .sisu2_sisemine {
     font-family: "Lobster", cursive;
-    color: #76c4fa;
+    color: #93c09e;
     text-align: center;
     font-size: 40px;
     margin-top: 0px;
@@ -143,10 +143,10 @@
 .sisu2_tekst {
     font-family: "Signika Negative", sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
 .sisu2_tekst iframe {
-    border-color: #76c4fa;
+    border-color: #93c09e;
 }
