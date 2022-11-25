@@ -39,18 +39,18 @@
     height: 100%;
 }
 
-.lingid_header a {
+.lingid_header li {
     height: 100%;
     display: table;
     float: left;
     padding: 0px 20px;
 }
 
-.lingid_header a:hover, a:active {
+.lingid_header li:hover, li:active {
     background-color: #136185;
 }
 
-.lingid_header a li {
+.lingid_header li a {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -59,10 +59,56 @@
     font-family: 'Signika Negative', sans-serif;
 }
 
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #115473;
+}
+
+.sisemine_footer {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.pealkiri2 {
+    height: 100%;
+    display: table;
+    text-align: center;
+    float: left;
+}
+
+.pealkiri2 p {
+    color: #93c09e;
+    height: 100%;
+    width: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+
+#myBtn {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#115473; /* Set a background color */
+    color:#93c09e; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px 20px; /* Some padding */
+    font-size: 70px; /* Increase font size */
+    height: 100%;
+    display: table;
+    float: right;
+    margin-right: 50px;
+  }
+  
+#myBtn:hover {
+    background-color: #136185;
+  }
 
 .sisu1 {
     background-color: #93c09e;
-    height: 350px;
     background-size: cover;
     
 }
@@ -72,15 +118,14 @@
     color: #115473;
     text-align: center;
     font-size: 30px;
-    margin-top: 0px;
 }
 
 .sisu1_tekst {
     font-family: "Signika Negative", sans-serif;
     text-align: left;
     font-size: 20px;
-    margin-top: 50px;
     margin-left: 80px;
+    margin-right: 80px;
     color:#115473;
 
 }
@@ -107,12 +152,11 @@
 
 .sisu1_tekst ol{
     color: #115473;
-    margin-left: 50px;
-    list-style-type: disc;
+    margin-left: 20px;
 }
 
 .sisu1_tekst ol li {
-    list-style-type: disc;
+    list-style-type: none;
 }
 
 .rida2 {
@@ -127,7 +171,6 @@
     background-color: #115473;
     height: 800px;
     background-size: cover;
-    
 }
 
 .sisu2_sisemine {
@@ -135,10 +178,7 @@
     color: #93c09e;
     text-align: center;
     font-size: 40px;
-    margin-top: 0px;
 }
-
-
 
 .sisu2_tekst {
     font-family: "Signika Negative", sans-serif;
