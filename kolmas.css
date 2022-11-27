@@ -165,11 +165,13 @@
 
 .veerg2 {
     flex: 50%;
+    text-align: center;
+    margin-right: 50px;
 }
 
 .sisu2 {
     background-color: #115473;
-    height: 800px;
+    height: 650px;
     background-size: cover;
 }
 
@@ -178,6 +180,8 @@
     color: #93c09e;
     text-align: center;
     font-size: 40px;
+    margin-left: 50px;
+    
 }
 
 .sisu2_tekst {
@@ -187,6 +191,11 @@
     color: white;
 }
 
-.sisu2_tekst iframe {
-    border-color: #93c09e;
+.pilt {
+    text-align: justify;
+    display: flex
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
 }
