@@ -193,7 +193,7 @@
 
 .pilt {
     text-align: justify;
-    display: flex
+    display: flex;
     width: 100%;
     max-width: 550px;
     height: auto;
