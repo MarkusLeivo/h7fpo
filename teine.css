@@ -3,16 +3,13 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
-
 }
 
 .header {
     height: 60px;
     width: 100%;
-    background-color:rgb(118, 196, 250);
+    background-color: #115473;
     display: block;
-    
 }
 
 .sisemine_header {
@@ -20,21 +17,50 @@
     width: 90%;
     margin: 0 auto;
     display: block;
-    
 }
 
 .pealkiri {
     height: 100%;
     display: table;
-    margin-left: auto;
-    margin-right: auto;
-    
-   
-    
+    float: left;
 }
 
 .pealkiri h1 {
-    color: rgb(17, 84, 115);
+    color: #93c09e;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+}
+
+.lingid_header {
+    float: right;
+    height: 100%;
+}
+
+.lingid_header li {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.lingid_header li:hover, li:active {
+    background-color: #136185;
+}
+
+.lingid_header li a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #93c09e;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.pealkiri h1 {
+    color: rgb(147, 192, 152);
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -44,114 +70,257 @@
     
 body  {
     background-color: rgb(147, 192, 152) ;
-
 }
     
+
 .tutvustus {
+    width: 100%;
     height: 60px;  
     display: table;
-    margin: 0 auto;
-    
+    margin: 20px;  
 }
 
-.tutvustus b {
-    color: rgb(17, 84, 115);
+.tutvustus h2 {
+    color:rgb(17, 84, 115) ;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
     font-family: 'Lobster', cursive;
-    font-size: 25px;
+    font-size: 40px;
 }
-.meditatsioon{ 
+
+
+.loomad{ 
     width: 900px; 
     margin: 40px auto;
-    
 }
 
 .alampealkiri {
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
+}
+
+
+.stress{
+    width: 100%;
+    height: 450px;
+    background-color: #115473;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 50px;
     
 }
-.alampealkiri h2{
-    color: rgb(17, 84, 115);
-    vertical-align: top;
-    text-align: center;
-    height: 100%;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
-}
-
-.meditatsioon p {
-    color: rgb(17, 84, 115);
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
-    
-}
-.meditatsioon img {
-    display: block;
-    margin: 10px auto
-}
-
-
 
 .stress_kirjeldus {
     width: 100%;
-    margin-left: 12.5px
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #115473; 
 }
+
 .stress_kirjeldus h2 {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+}
+
+.stress_video {
+    width: 1238px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: white;
+    border:10px solid white;   
+}
+
+.stress_video iframe {
+    border-radius:12px;
+    width: 405px; 
+    height: 250px; 
+}
+
+
+
+#sport {
+    display: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(17, 84, 115);
+}
+
+.muusika {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nupp{
+    width: 300px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.button {
+    width:300px;
+    height:40px;
+    background-color: rgb(17, 84, 115);
+    color: rgb(147, 192, 152);
+    border: none;
+    border-radius:10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+header {
+	width: 100%;
+	padding-bottom: 25px;
+	flex-direction: column;
+}
+
+img {
+	width: 30%;
+    border: 5px dotted rgb(17, 84, 115);
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;   
+}
+
+.flex h1 {
     color: rgb(17, 84, 115);
     vertical-align: middle;
     text-align: center;
     height: 100%;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
-.stress_video {
-    width: 1238px;
-    height: 250px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto; 
-    box-shadow: 10px 10px 20px;
+
+.flex button {
+    width:300px;
+    height:40px;
+    background-color: rgb(17, 84, 115);
+    color: rgb(147, 192, 152);
+    border-radius:10px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.flex button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-.sport {
-    width: 100%; 
-    margin-top: 80px;
+.muusika_kirjeldus {
+    width: 95%;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    
-}
-.sport h2 {
-    color: rgb(17, 84, 115);
-    vertical-align: top;
-    text-align: center;
-    height: 100%;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
-}
-.sport ul {
-    color: rgb(17, 84, 115);
-    height: 100%;
-    vertical-align: top;
-    text-align: center;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
+    margin-bottom: 0px;
 }
 
-.sportmuusika{
-    width: 910px;
-    margin: 20px auto;
-    border:20px solid rgb(17, 84, 115);
-    background-color:rgb(17, 84, 115);
-    border-radius:12px
+.muusika_kirjeldus h2 {
+    text-align: center;
+    color: #115473;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
 }
+
+
+.raamatud_kirjeldus {
+    width: 95%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.raamatud_kirjeldus h2 {
+    text-align: center;
+    color: #115473;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+}
+
+.raamatud {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #115473;
+    padding-top: 20px;
+}
+
+.raamatud h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin-top: 20px;
+}
+  
+.raamatud::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+    border: 10px double white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ .column h2 {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+ }
+ 
+ .column p {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+ }
