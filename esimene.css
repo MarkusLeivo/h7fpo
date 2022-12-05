@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: block;
+}
+
+.sisemine_header {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.pealkiri {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.pealkiri h1 {
+    color: darkviolet;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+}
+
+.lingid_header {
+    float: right;
+    height: 100%;
+}
+
+.lingid_header a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.lingid_header a:hover, a:active {
+    background-color:blue;
+}
+
+.lingid_header a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color:aqua;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
