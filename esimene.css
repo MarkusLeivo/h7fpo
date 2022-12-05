@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative&display=swap');
 
-.pealkiri {
-    height: 100%;
-    display: table;
-}
-.pealkiri h1{
-    font-family: 'Lobster', cursive;
-    color: #93c09e;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 38px;
-    height: 100%;
-    vertical-align: middle;
-    display: table-cell;
-}
-
 .first {
     font-family: 'Signika Negative', sans-serif;
     align-items: center;
@@ -52,6 +37,16 @@
 .papers img {
     border-radius: 50%;
     border-bottom-left-radius: 80%;
+}
+
+#fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#fade-in2 {
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .box2 {
