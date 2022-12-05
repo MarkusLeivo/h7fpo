@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css" crossorigin="anonymous">
     <title>High Spirits</title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
 
@@ -18,16 +19,193 @@
             </div>
 
             <ul class ="lingid_header">
-                <a href="index.html"><li>HOME</li></a>
-                <a href="first.html"><li>FIRST</li></a>
-                <a href="second.html"><li>SECOND</li></a>
-                <a href="third.html"><li>THIRD</li></a>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="esimene.html">FIRST</a></li>
+                <li><a href="teine.html">SECOND</a></li>
+                <li><a href="kolmas.html">THIRD</a></li>
             </ul>
         </div>
     </div>
 
+    <div class="sisu1_main">
+        <div class="sisu1_main_sisemine">
+            <br>
+            <h1>Welcome to High Spirits!</h1>
+            <br>
+            <div class="sisu1_main_tekst">
+                <h2 style="text-align: center;">Are you feeling down or going through negative emotions? You are in the right place!</h2>
+                <br>
+                <h3>This website was made with one task in mind. To help you and make you feel better on a bad day!</h3>
+            
+                <p>On this page you can find a test which evaluates your situation and gives recommendations on what to do.</p>
+                <p>Be sure to check out the subpages as well!</p>
+                <p>On the first subpage you will find different kinds of breathing exercises to help calm you down and clear your mind.</p>
+                <p>On the second subpage you can find videos, pictures, music and books to help cheer you up.</p>
+                <p>On the third subpage you will be given a small overview about what might make you feel down and some helpful tips to get motivated.</p>
+                <br>
+                <p>We hope this webpage is of help to anyone going through a bad time.</p>
+                <br>
+            </div>
+        </div>
+    </div>
 
+    <div class="sisu2_main">
+        <div class="sisu2_main_sisemine">
+            <br>
+            <h2>Mood test</h2>
+            <p style="text-align: center;">!!! This test does not provide a diagnosis, but rather gives you a small overview from which you can infer, how good or bad your current situation is. !!!</p>
+            <p style="text-align: center"> If you are worried about your mental health, please seek professional help.</p>
+            <br>
+            <div class="sisu2_main_tekst" style="overflow:auto; height: 400px; margin-right: 50px; border:3px solid #93c09e;">  <!--Suur osa testi küsimustest on koostatud PHQ-9 põhjal. Link: https://www.mdcalc.com/calc/1725/phq9-patient-health-questionnaire9-->
+                <h4>Q1. Rate your today’s mood. </h4>
+                <p><input type ="radio" name="question1" id="correct0" >Wonderful</p>
+                <p><input type ="radio" name="question1" id="correct1" >Quite good, but could be better</p>
+                <p><input type ="radio" name="question1" id="correct2" >Quite bad, but not desperate</p>
+                <p><input type ="radio" name="question1" id="correct3" >Awful</p>
+                <br>
 
+                <h4>Q2. How have you been feeling lately overall?</h4>
+                <p><input type ="radio" name="question2" id="correct4" >Wonderful</p>
+                <p><input type ="radio" name="question2" id="correct5" >Quite good, but could be better</p>
+                <p><input type ="radio" name="question2" id="correct6" >Quite bad, but not desperate</p>
+                <p><input type ="radio" name="question2" id="correct7" >Awful</p>
+                <br>
+
+                <h4>Q3. How often have you been feeling down, lonely or hopeless?</h4>
+                <p><input type ="radio" name="question3" id="correct8" >Not at all</p>
+                <p><input type ="radio" name="question3" id="correct9" >Several days</p>
+                <p><input type ="radio" name="question3" id="correct10" >More than half the days</p>
+                <p><input type ="radio" name="question3" id="correct11" > Nearly every day</p>
+                <br>
+
+                <h4>Q4. How often have you had little interest or pleasure in doing things?</h4>
+                <p><input type ="radio" name="question4" id="correct12" >Not at all</p>
+                <p><input type ="radio" name="question4" id="correct13" >Several days</p>
+                <p><input type ="radio" name="question4" id="correct14" >More than half the days</p>
+                <p><input type ="radio" name="question4" id="correct15" >Nearly every day</p>
+                <br>
+
+                <h4>Q5. How often have you been bothered by trouble falling or staying asleep, or sleeping too much? </h4>
+                <p><input type ="radio" name="question5" id="correct16" >Not at all</p>
+                <p><input type ="radio" name="question5" id="correct17" >Several days</p>
+                <p><input type ="radio" name="question5" id="correct18" >More than half the days</p>
+                <p><input type ="radio" name="question5" id="correct19" >Nearly every day</p>
+                <br>
+
+                <h4>Q6. How often have you been bothered by feeling tired or having little energy? </h4>
+                <p><input type ="radio" name="question6" id="correct20" >Not at all</p>
+                <p><input type ="radio" name="question6" id="correct21" >Several days</p>
+                <p><input type ="radio" name="question6" id="correct22" >More than half the days</p>
+                <p><input type ="radio" name="question6" id="correct23" >Nearly every day</p>
+                <br>
+
+                <h4>Q7. How often have you been bothered by poor appetite or overeating? </h4>
+                <p><input type ="radio" name="question7" id="correct24" >Not at all</p>
+                <p><input type ="radio" name="question7" id="correct25" >Several days</p>
+                <p><input type ="radio" name="question7" id="correct26" >More than half the days</p>
+                <p><input type ="radio" name="question7" id="correct27" >Nearly every day</p>
+                <br>
+
+                <h4>Q8. Feeling bad about yourself — or that you are a failure or have let yourself or your family down? </h4>
+                <p><input type ="radio" name="question8" id="correct28" >Not at all</p>
+                <p><input type ="radio" name="question8" id="correct29" >Several days</p>
+                <p><input type ="radio" name="question8" id="correct30" >More than half the days</p>
+                <p><input type ="radio" name="question8" id="correct31" >Nearly every day</p>
+                <br>
+
+                <h4>Q9. How often have you been feeling nervous, anxious or on edge? </h4>
+                <p><input type ="radio" name="question9" id="correct32" >Not at all</p>
+                <p><input type ="radio" name="question9" id="correct33" >Several days</p>
+                <p><input type ="radio" name="question9" id="correct34" >More than half the days</p>
+                <p><input type ="radio" name="question9" id="correct35" >Nearly every day</p>
+                <br>
+                
+                <h4>Q10. How often have you been bothered by not being able to stop or control worrying?</h4>
+                <p><input type ="radio" name="question10" id="correct36" >Not at all</p>
+                <p><input type ="radio" name="question10" id="correct37" >Several days</p>
+                <p><input type ="radio" name="question10" id="correct38" >More than half the days</p>
+                <p><input type ="radio" name="question10" id="correct39" >Nearly every day</p>
+                <br>
+
+                <h4>Q11. How often have you been bothered by worrying too much about different things?</h4>
+                <p><input type ="radio" name="question11" id="correct40" >Not at all</p>
+                <p><input type ="radio" name="question11" id="correct41" >Several days</p>
+                <p><input type ="radio" name="question11" id="correct42" >More than half the days</p>
+                <p><input type ="radio" name="question11" id="correct43" >Nearly every day</p>
+                <br>
+
+                <h4>Q12. How often have you been bothered by having trouble relaxing?</h4>
+                <p><input type ="radio" name="question12" id="correct44" >Not at all</p>
+                <p><input type ="radio" name="question12" id="correct45" >Several days</p>
+                <p><input type ="radio" name="question12" id="correct46" >More than half the days</p>
+                <p><input type ="radio" name="question12" id="correct47" >Nearly every day</p>
+                <br>
+
+                <h4>Q13. How often have you been bothered by being so restless that it is hard to sit still? </h4>
+                <p><input type ="radio" name="question13" id="correct48" >Not at all</p>
+                <p><input type ="radio" name="question13" id="correct49" >Several days</p>
+                <p><input type ="radio" name="question13" id="correct50" >More than half the days</p>
+                <p><input type ="radio" name="question13" id="correct51" >Nearly every day</p>
+                <br>
+
+                <h4>Q14. How often have you been bothered by becoming easily annoyed or irritable? </h4>
+                <p><input type ="radio" name="question14" id="correct52" >Not at all</p>
+                <p><input type ="radio" name="question14" id="correct53" >Several days</p>
+                <p><input type ="radio" name="question14" id="correct54" >More than half the days</p>
+                <p><input type ="radio" name="question14" id="correct55" >Nearly every day</p>
+                <br>
+
+                <h4>Q15. Has it been difficult for you to study, do house chores or get along with other people? </h4>
+                <p><input type ="radio" name="question15" id="correct56" >Not difficult at all</p>
+                <p><input type ="radio" name="question15" id="correct57" >A bit difficult</p>
+                <p><input type ="radio" name="question15" id="correct58" >Very difficult</p>
+                <p><input type ="radio" name="question15" id="correct59" >Extremely difficult</p>
+                <br>
+
+                <input type="submit" id="nupp_main" name="submit" value="Submit" onClick="result()">
+                <p id="tulemus"></p>
+                <p id="lisainfo"></p>
+                <br>
+                <br>
+                <br>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="sisu1_main">
+        <div class="sisu1_main_sisemine">
+            <br>
+            <div class="sisu1_main_tekst">
+                <h2>Who to turn to with your concerns?</h2>
+                <br>
+                <h3>If you are feeling depressed or have some other serious problem, seek help from the helplines below.</h3>
+                <br>
+                <p><b> For urgent help call 112 <i class="fa fa-solid fa-truck-medical"></i></b></p>
+                <p><b> The family doctor or nurse <i class="fa fa-solid fa-notes-medical"></i></b> - For when you have a health concern or are in need of medical advice. </p>
+                <p><b> Family doctor advice line 1220 <i class="fa fa-light fa-phone-flip"></i></b> - Ask for professional medical advice in Estonian or Russian 24/7.</p>
+                <p><b> Child Helpline 116 111 <i class="fa fa-light fa-phone-flip"></i></b> - This is a 24/7 free service for asking advice in child-related matters.</p>
+                <p><b> Emotional support line 655 8088 <i class="fa-solid fa-phone-flip"></i></b> - If you are in a emotional crisis, feeling depressed, suffering from violence or dealing with grief.</p>
+                <p><b> Victim support helpline 116 006 <i class="fa fa-light fa-phone-flip"></i></b> - Provides assistance to people who have fallen victim to mistreatment and physical, psychological, sexual or economic violence.</p>
+                <br>
+                <p><b>You are not alone! In a moment of despair, reach out to someone.</b></p>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-circle-up"></i>
+        </button>
+
+        <div class="sisemine_footer">
+            <div class="pealkiri2">
+                <p><script src="main.js"></script></p>  
+            </div>
+        </div>
+    </div>
 
 </body>
 
