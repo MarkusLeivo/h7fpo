@@ -90,13 +90,13 @@
 }
 
 #myBtn {
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color:#115473; /* Set a background color */
-    color:#93c09e; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 0px 20px; /* Some padding */
-    font-size: 70px; /* Increase font size */
+    border: none;
+    outline: none;
+    background-color:#115473;
+    color:#93c09e;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-size: 70px;
     height: 100%;
     display: table;
     float: right;
@@ -198,4 +198,14 @@
     max-width: 550px;
     height: auto;
     margin: 0 auto;
+}
+
+#fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#fade-in2 {
+    opacity: 0;
+    transition: opacity 1s;
 }
